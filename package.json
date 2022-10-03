@@ -1,0 +1,23 @@
+{
+  "name": "resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": {
+    "name": "Acacio De Lima",
+    "email": "limadeacacio@gmail.com",
+    "url": "https://github.com/limazia"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jimp": "^0.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
